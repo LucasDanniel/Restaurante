@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #F6F7F8;
+body {
+  background-color: #f6f7f8;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  @apply appearance-none;
+}
+
+input[type="number"] {
+  @apply appearance-none;
 }
